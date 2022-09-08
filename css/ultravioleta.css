@@ -1,0 +1,29 @@
+.ultravioleta {
+    background-color: var(--cinza-do-fundo);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+.ultravioleta p, .saiba-mais {
+    width: 70%;
+}
+
+.ultravioleta p {
+    margin: -50px 0 40px 0;
+}
+
+.imagem-cartao-ultravioleta {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+.imagem-de-celular {
+    width: 280px;
+    height: 470px;
+    position: absolute;
+    left: 50px;
+}

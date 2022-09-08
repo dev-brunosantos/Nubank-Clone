@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/fonts/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Nubank Clone</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <img src="img/nubankLogo-fundo-trasnparente.png" alt="Logomarca do site da Nubanjk" class="cabecalho-logo">
+
+        <ul class="cabecalho-menu">
+            <li class="menu-items">Página Inicial</li>
+            <li id="paraVoce" class="menu-items">Pra Você <i class="fas fa-angle-down mais"></i></li>
+            <li id="seuNegocio" class="menu-items">Para seu negócio <i class="fas fa-angle-down mais"></i></li>
+            <li id="oNubank" class="menu-items">O Nubank <i class="fas fa-angle-down mais"></i></li>
+            <li class="menu-items">Perguntas</li>
+        </ul>
+
+        <a href="#" class="cabecalho-login">Login</a>
+
+        <div id="menu-para-voce" class="menu-complementos">
+            <div class="informacoes">
+                <p class="informacoes-titulo">Nubank</p>
+                <a href="#" class="informacoes-links">Cartão de Crédito</a>
+                <a href="#" class="informacoes-links">Conta do Nubank</a>
+                <a href="#" class="informacoes-links">Tudo sobre Pix</a>
+            </div>
+
+            <div class="informacoes">
+                <p class="informacoes-titulo">Nubank Ultravioleta</p>
+                <a href="#" class="informacoes-links">Cartão de Crédito <button>novo</button></a>
+            </div>
+
+            <div class="informacoes">
+                <p class="informacoes-titulo">Nubank Seguros</p>
+                <a href="#" class="informacoes-links">Seguro de Vida</a>
+                <a href="#" class="informacoes-links">Seguro de Celular <button>novo</button></a>
+            </div>
+
+            <div class="informacoes">
+                <p class="informacoes-titulo">Outros Produtos</p>
+                <a href="#" class="informacoes-links">Empréstimo Pessoal</a>
+                <a href="#" class="informacoes-links">Investimentos <button>novo</button></a>
+            </div>
+        </div>
+
+        <div id="menu-para-seu-negocio" class="menu-complementos">
+            <div class="informacoes negocio">
+                <p class="informacoes-titulo">Nubank Pj</p>
+                <a href="#" class="informacoes-links">Conta PJ</a>
+                <a href="#" class="informacoes-links">Cartão de crédito PJ <button>novo</button></a>
+            </div>
+
+            <div class="informacoes negocio">
+                <p class="informacoes-titulo">Pagamentos</p>
+                <a href="#" class="informacoes-links">NuTap<button>novo</button></a>
+            </div>
+        </div>
+
+        <div id="menu-oNubank" class="menu-complementos o-nubank">
+            <div class="informacoes">
+                <p class="informacoes-titulo">Sobre Nós</p>
+                <a href="#" class="informacoes-links">Sobre o Nu</a>
+                <a href="#" class="informacoes-links">Sala de imprensa</a>
+                <a href="#" class="informacoes-links">Carreiras</a>
+                <a href="#" class="informacoes-links">Nu Impacto</a>
+                <a href="#" class="informacoes-links">Investidores</a>
+            </div>
+
+            <div class="informacoes">
+                <p class="informacoes-titulo">Outros Canais</p>
+                <a href="#" class="informacoes-links">Blog</a>
+                <a href="#" class="informacoes-links">Newsletter</a>
+                <a href="#" class="informacoes-links">Comunidade</a>
+                <a href="#" class="informacoes-links">InvestNews</a>
+            </div>
+
+            <div class="informacoes">
+                <p class="informacoes-titulo">Nubank pelo mundo</p>
+                <a href="#" class="informacoes-links">México</a>
+                <a href="#" class="informacoes-links">Colômbia</a>
+                <a href="#" class="informacoes-links">Argentina</a>
+                <a href="#" class="informacoes-links">Nu Internacional</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="corpo">
+
+        <section id="inicio" class="inicio telas">
+            <div class="inicio-texto telas-divididas">
+                <h1>O futuro é a razão que a gente faz planos.</h1>
+                <p>Escolha o futuro. Comece a controlar melhor <br> sua vida financeira com o Nubank.</p>
+            </div>
+
+            <div class="inicio-cpf telas-divididas">
+                <form class="inicio-formulario">
+                    <div>
+                        <h2>Peça sua conta e cartão de crédito do Nubank</h2>
+    
+                        <input type="tel" required placeholder="Digite seu CPF">
+                        <p id="cpf-invalido"></p>
+                        
+                        <button>Continuar</button>
+                        
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section id="cartao-de-credito" class="cartao-de-credito">
+            <div class="telas-divididas">
+                <div class="cartao-de-credito-texto">
+                    <a href="#" class="cartao-link">
+                        <h2>Cartão de Crédito</h2>
+                    </a>
+    
+                    <p class="texto-explicativo">Pode chamar ele de <br> roxinho. Além disso, pode chamar ele de moderno, gratuito e prático também.</p>
+    
+                    <a href="#" class="saiba-mais">Saiba mais</a>
+                </div>
+            </div>
+            <div class="telas-divididas">
+                <img src="img/cartoes.png" alt="" class="imagem-de-cartoes">
+            </div>
+        </section>
+
+        <section class="ultravioleta">
+            <div class="container">
+                <div class="telas-divididas">
+                    <p class="texto-explicativo">O cartão pensado para quem quer ver além</p>
+    
+                    <a href="#" class="saiba-mais">Saiba mais</a>
+                </div>
+    
+                <div class="telas-divididas">
+                    <img src="img/ultravioleta.png" alt="" class="imagem-cartao-ultravioleta imagem-de-cartoes">
+                </div>
+            </div>
+            
+           <div class="container">
+                <div class="telas-divididas">
+                    <p class="texto-explicativo txt2">A conta que vai levar você ao controle da sua vida financeira.</p>
+    
+                    <a href="#" class="saiba-mais">Sem tarifas e sem complicações</a>
+                </div>
+    
+                <div class="telas-divididas">
+                    <img src="img/celular.png" alt="" class="imagem-de-celular">
+                </div>
+           </div>
+        </section>
+
+        <section id="conta-pj" class="conta-pj telas">
+            <div class="telas-divididas">
+                <div class="conta-pj-texto">
+                    <a href="#" class="cartao-link">
+                        <h2>Conta PJ</h2>
+                    </a>
+    
+                    <p class="texto-explicativo">Controle o seu negócio com suporte humano de verdade.</p>
+    
+                    <a href="#" class="saiba-mais">Saiba mais</a>
+                </div>
+            </div>
+
+            <div class="telas-divididas">
+                <img src="img/cartao-business.webp" alt="" class="imagem-de-cartoes cartao-business">
+            </div>
+        </section>
+        <footer class="rodape"></footer>
+    </main>
+    
+
+    <script src="js/main.js"></script>
+</body>
+</html>

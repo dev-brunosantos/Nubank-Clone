@@ -1,0 +1,78 @@
+.inicio {
+    background: url("../img/primeira-secao.webp") no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.telas-divididas {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.inicio-texto {
+    color: var(--branco);
+    text-shadow: 1px 0px var(--preto);
+}
+.inicio-texto h1 {
+    font-weight: bold;
+    font-size: 3em;
+    width: 80%;
+}
+.inicio-texto p {
+    width: 80%;
+    margin-top: 20px;
+    font-size: 1.7em;
+}
+
+.inicio-formulario {
+    height: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-right: 70px;
+    background-color: var(--branco);
+}
+
+.inicio-formulario div {
+    width: 280px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inicio-formulario div h2 {
+    font-size: 1.7em;
+}
+
+.inicio-formulario div input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid var(--cinza);
+    font-size: 14px;
+}
+
+.inicio-formulario div input[type="tel"]:hover {
+    transition: .3s;
+    border: 1px solid transparent;
+    border-bottom: 1px solid var(--preto);
+}
+
+.inicio-formulario div button {
+    width: 98%;
+    height: 45px;
+    border: transparent;
+    border-radius: 25px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    background-color: var(--roxo);
+    color: var(--branco);
+}

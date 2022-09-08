@@ -1,0 +1,54 @@
+/* ESTILOS DE FONTES E ÍCONES */
+
+:root, :host {
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free"; }
+  
+  @font-face {
+    font-family: 'Font Awesome 6 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("../fonts/fa-solid-900.ttf") format("woff2"), url("../fonts/fa-solid-900.woff2") format("truetype"); 
+  }
+  :root, :host {
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands"; }
+  
+  @font-face {
+    font-family: 'Font Awesome 6 Brands';
+    font-style: italic;
+    font-weight: 400;
+    font-display: block;
+    src: url("../fonts/fa-brands-400.ttf") format("woff2"), url("../fonts/fa-brands-400.woff2") format("truetype"); 
+  }
+  
+  .fas,
+  .fa-solid {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900; 
+    font-style: normal;
+  }
+  .fab,
+  .fa-brands {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400; }
+
+  /* BARRAS DO MENU PARA DISPOSITIVOS MÓVEIS */
+  .fa-bars::before {
+    content: "\f0c9"; 
+  }
+  
+  /* FECHAR BARRA DE MENU */
+  .fa-window-close::before {
+    content: "\f410"; 
+  }
+  .fa-close::before {
+    content: "\f00d"; 
+  }
+
+  /* SETA PARA BAIXO */
+  .fa-angle-up::before {
+    content: "\f106"; }
+
+  /* SETA PARA CIMA */
+  .fa-angle-down::before {
+    content: "\f107"; }

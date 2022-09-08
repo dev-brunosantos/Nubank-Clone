@@ -1,0 +1,99 @@
+.cabecalho-logo {
+    height: 110%;
+    margin: 0 20px 0 40px;
+}
+
+.cabecalho-menu {
+    width: 42%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-items {
+    list-style: none;
+    color: var(--preto2);
+    font-weight: 500;
+    font-size: 1.1em;
+}
+.mais {
+    transition: .2s;
+    margin-left: 5px;
+    font-size: 15px;
+    color: var(--preto2);
+}
+.mais-girar {
+    transition: .2s;
+    rotate: 180deg;
+}
+
+.cabecalho-login {
+    color: var(--roxo);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    float: right;
+    position: absolute;
+    right: 5.5%;
+}
+
+.menu-complementos, .menu-para-voce {
+    position: absolute;
+    top: 100%;
+    overflow: hidden;
+    width: 100%;
+    height: 0vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--branco);
+}
+
+.abrir-menu-complementos {
+    transition: .3s;
+    opacity: 1;
+    height: 45vh;
+}
+.abrir-negocio {
+    transition: .3s;
+    opacity: 1;
+    height: 30vh;
+}
+.abrir-o-nubank {
+    transition: .3s;
+    opacity: 1;
+    height: 50vh;
+}
+.informacoes {
+    width: 300px;
+    padding-top: 30px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.negocio {
+    width: 40%;
+}
+
+.informacoes-titulo {
+    margin: 10px 0;
+    font-size: 17px;
+}
+.informacoes-links {
+    margin: 10px 0 20px 0;
+    color: var(--preto2);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.informacoes-links button {
+    background-color: var(--cor-de-botao);
+    border: transparent;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 4px;
+    font-weight: bold;
+    opacity: 0.8;
+}

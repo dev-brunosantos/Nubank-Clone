@@ -1,0 +1,47 @@
+.cartao-de-credito {
+    height: 100vh;
+    padding-top: 100px;
+    background-color: var(--branco);
+    display: flex;
+    align-items: center;
+}
+
+.cartao-de-credito-texto {
+    width: 80%;
+    margin-bottom: 250px;
+}
+.cartao-link {
+    color: var(--roxo);
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.cartao-link:hover {
+    text-decoration: underline;
+}
+
+.texto-explicativo {
+    /* font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-size: 3em;
+    font-weight: bold;
+    margin: 20px 0 ;
+}
+
+.saiba-mais {
+    color: var(--roxo);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.saiba-mais:hover {
+    text-decoration: underline;
+}
+
+.imagem-de-cartoes {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 2%;
+    left: 60px;
+}
