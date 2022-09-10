@@ -82,7 +82,7 @@
 
 @media screen and (max-width: 750px) {
     .inicio {
-        padding-top: 80px;
+        padding-top: 70px;
         background: url("../img/inicioP.webp") no-repeat ;
         background-size: 100% 750px;
         background-position-y: 80px;
