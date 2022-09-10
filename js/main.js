@@ -1,3 +1,15 @@
+const menuBarra = document.querySelector('.barra-de-menu');
+const menuPrincipal = document.querySelector('.cabecalho-menu');
+
+menuBarra.addEventListener('click', abrirMenu);
+
+function abrirMenu() {
+    menuPrincipal.classList.toggle('abrir-menu')
+};
+
+// ______________________________________________________
+
+
 const praVoce = document.getElementById('paraVoce');
 const seuNegocio = document.getElementById('seuNegocio');
 const nubank = document.getElementById('oNubank');

@@ -58,3 +58,23 @@ body {
     height: 100vh;
     padding-top: 50px;
 }
+
+/* ________________________________ */
+@media screen and (max-width: 750px) {
+    .cabecalho {
+        height: 80px;
+        border-bottom: solid var(--cinza-do-fundo);
+        align-items: center;
+    }
+
+    .telas {
+        width: 100%;
+        height: 750px;
+    }
+}
+
+/* DEPOIS APAGAR ESSAS LINHAS DE CODIGO */
+
+.ultravioleta, .conta-pj, .secao5, .rodape {
+    display: none;
+}

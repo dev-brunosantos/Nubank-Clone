@@ -78,13 +78,44 @@
     color: var(--branco);
 }
 
+/* ___________________________________________ */
+
 @media screen and (max-width: 750px) {
     .inicio {
-        height: 100vh;
-        background-size: cover;
-        background-position-y: 50px;
-        background-position-x: 95%;
+        padding-top: 80px;
+        background: url("../img/inicioP.webp") no-repeat ;
+        background-size: 100% 750px;
+        background-position-y: 80px;
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }   
+
+    .inicio-texto {
+        width: 95%;
+    }
+
+    .inicio-texto h1 {
+        font-weight: bold;
+        font-size: 1.875rem;
+        width: 100%;
+    }
+
+    br {
+        display: none;
+    }
+
+    .inicio-texto p {
+        width: 100%;        
+        font-size: 1.25rem;
+        font-weight: bold;
+        align-self: flex-start;
+    }
+
+    .inicio-formulario {
+        margin: -120px 0 0 0;
+    }
+    .inicio-formulario div h2 {
+        font-size: 1.25em;
     }
 }

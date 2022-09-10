@@ -48,3 +48,9 @@
 .divisao1-links:hover {
     text-decoration: underline;
 }
+
+/* ________________________________ */
+
+@media screen and (max-width: 750px) {
+    
+}
