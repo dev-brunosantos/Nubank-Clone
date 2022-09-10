@@ -62,7 +62,7 @@ body {
 /* ________________________________ */
 @media screen and (max-width: 750px) {
     .cabecalho {
-        height: 80px;
+        height: 70px;
         border-bottom: solid var(--cinza-do-fundo);
         align-items: center;
     }
