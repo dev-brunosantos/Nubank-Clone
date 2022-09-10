@@ -1,0 +1,50 @@
+.secao5 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-divisoes {
+    width: 100%;
+    height: 100vh;
+    color: var(--cinza-claro);
+    display: flex;
+    align-items: center;
+}
+
+.divisao1 {
+    background: url("../img/pessoas1.webp") no-repeat center;
+    background-size: cover;
+}
+
+.divisao2 {
+    background: url("../img/pessoas2.webp") no-repeat center;
+    background-size: cover;
+}
+
+.divisao3 {
+    background: url("../img/pessoas3.webp") no-repeat center;
+    background-size: cover;
+}
+
+.divisao-textos {
+    width: 45%;
+    padding: 64px;
+    margin-left: 180px;
+}
+
+.divisao-textos h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.divisao1-links {
+    color: var(--cinza-claro);
+    font-size: 1.125rem;
+    text-decoration: none;
+}
+
+.divisao1-links:hover {
+    text-decoration: underline;
+}

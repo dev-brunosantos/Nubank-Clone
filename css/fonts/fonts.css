@@ -52,3 +52,23 @@
   /* SETA PARA CIMA */
   .fa-angle-down::before {
     content: "\f107"; }
+
+  /* LINKEDIN */
+  .fa-linkedin:before {
+    content: "\f08c"; }
+
+  /* YOUTUBE */
+  .fa-youtube-square:before {
+    content: "\f431"; }
+
+  /* FACEBOOK */
+  .fa-facebook-square:before {
+    content: "\f082"; }
+
+  /* INSTAGRAM */
+  .fa-instagram-square:before {
+    content: "\e055"; }
+
+  /* TWITER */
+  .fa-twitter-square:before {
+    content: "\f081"; }

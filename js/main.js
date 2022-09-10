@@ -3,6 +3,10 @@ const seuNegocio = document.getElementById('seuNegocio');
 const nubank = document.getElementById('oNubank');
 const corpo = document.querySelector('.corpo');
 
+var teste = document.querySelector('i.fa-angle-down');
+
+
+
 var complemento1 = document.getElementById('menu-para-voce');
 var complemento2 = document.getElementById('menu-para-seu-negocio');
 var complemento3 = document.getElementById('menu-oNubank');
