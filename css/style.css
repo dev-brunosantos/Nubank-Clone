@@ -62,10 +62,7 @@ body {
 /* ________________________________ */
 @media screen and (max-width: 750px) {
     .cabecalho {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 80px;
+        height: 70px;
         border-bottom: solid var(--cinza-do-fundo);
         align-items: center;
     }
@@ -74,9 +71,10 @@ body {
         width: 100%;
         height: 800px;
     }
+
+    .rodape {
+        display: none;
+    }
 }
 
 /* DEPOIS APAGAR ESSAS LINHAS DE CODIGO */
-.rodape {
-    display: none;
-}
