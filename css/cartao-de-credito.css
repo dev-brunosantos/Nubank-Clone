@@ -49,7 +49,8 @@
 
 @media screen and (max-width: 750px) {
     .cartao-de-credito {
-        height: 100vh;
+        /* height: 100vh; */
+        height: 800px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -82,7 +83,7 @@
         width: 350px;
         height: 285px;
         position: absolute;
-        top: -250px;
+        top: -290px;
         left: 0;
     }
 }

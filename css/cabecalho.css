@@ -25,6 +25,9 @@
     font-weight: 500;
     font-size: 1.1em;
 }
+.menu-items-login {
+    display: none;
+}
 .mais {
     transition: .2s;
     margin-left: 5px;

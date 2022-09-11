@@ -52,5 +52,42 @@
 /* ________________________________ */
 
 @media screen and (max-width: 750px) {
+    .secao5 {
+        height: auto;
+    }
+    .sub-divisoes {
+        height: 70vh;
+        align-items: flex-start;
+    }
+    .divisao1 {
+        background: url("../img/pessoas1P.webp") no-repeat center;
+        background-size: auto 100%;
+        /* background-position-x: 0px; */
+    }
     
+    .divisao2 {
+        background: url("../img/pessoas2P.webp") no-repeat center center;
+        background-size: cover;
+    }
+    
+    .divisao3 {
+        background: url("../img/pessoas3P.webp") no-repeat center;
+        background-size: cover;
+    }
+    .divisao-textos {
+        width: 100%;
+        padding: 10px;
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+    .divisao-textos h2 {
+        color: var(--branco);
+        font-size: 1.875rem;
+        margin-bottom: 20px;
+    }
+    .divisao1-links {
+        color: var(--branco);
+        font-weight: bold;
+        width: 80%;
+    }
 }
