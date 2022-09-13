@@ -10,6 +10,10 @@ function abrirMenu() {
 // ______________________________________________________
 
 
+
+// ______________________________________________________
+
+
 const praVoce = document.getElementById('paraVoce');
 const seuNegocio = document.getElementById('seuNegocio');
 const nubank = document.getElementById('oNubank');

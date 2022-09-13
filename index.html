@@ -109,10 +109,10 @@
                     <div>
                         <h2>Peça sua conta e cartão de crédito do Nubank</h2>
     
-                        <input type="tel" required placeholder="Digite seu CPF">
+                        <input type="tel" required placeholder="Digite seu CPF" maxlength="11" class="cpf-dado">
                         <p id="cpf-invalido"></p>
                         
-                        <button>Continuar</button>
+                        <button id="continuar">Continuar</button>
                         
                     </div>
                 </form>
@@ -347,5 +347,6 @@
     
 
     <script src="js/main.js"></script>
+    <script src="js/validarCPF.js"></script>
 </body>
 </html>

@@ -74,7 +74,8 @@
     display: flex;
     align-items: center;
     font-size: 16px;
-    background-color: var(--roxo);
+    /* background-color: var(--roxo); */
+    background-color: var(--cinza);
     color: var(--branco);
 }
 
