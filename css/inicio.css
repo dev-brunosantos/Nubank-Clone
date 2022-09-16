@@ -65,6 +65,14 @@
     border-bottom: 1px solid var(--preto);
 }
 
+#cpf-invalido {
+    width: 90%;
+    padding: 5px;
+    /* margin-top: -50px; */
+    /* border: solid; */
+    color: red;
+}
+
 .inicio-formulario div button {
     width: 98%;
     height: 45px;
@@ -118,5 +126,9 @@
     }
     .inicio-formulario div h2 {
         font-size: 1.25em;
+    }
+    #cpf-invalido {
+        margin-top: -50px;
+        color: red;
     }
 }
