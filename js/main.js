@@ -58,3 +58,18 @@ function fecharComplementos() {
     complemento2.classList.remove('abrir-negocio');
     complemento3.classList.remove('abrir-o-nubank');
 };
+
+
+function menuMobile() {
+    var larguraDaTela = window.screen.width;
+
+    if(larguraDaTela<=750) {
+
+        for(var i=0; i<complementos.length; i++) {
+            complementos[i].style.display = "block"
+            complementos[i].style.overflow = "auto"
+        }
+    }
+}
+
+menuMobile();
